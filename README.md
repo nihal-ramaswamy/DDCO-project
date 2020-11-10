@@ -46,6 +46,6 @@ Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals 
 - Nemalli Vishnu Vardhan Reddy [SRN: PES1UG19CS295]
 - Nerella Venkata Tarunika [SRN: PES1UG19CS296]
 - [Nihal Ramaswamy](https://github.com/nihal-ramaswamy) [SRN: PES1UG19CS297]
-- [Nihal Shetty](https://github.com/DragoMark) [SRN: PES1UG19CS297]
+- [Nihal Shetty](https://github.com/DragoMark) [SRN: PES1UG19CS298]
 
 
