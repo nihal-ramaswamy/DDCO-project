@@ -41,7 +41,7 @@ Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals 
 ## Screenshots
 #### GtkWave
 <img src = "./assets/Output.PNG"/> <br>
-#### Circuit Diag
+#### Circuit Diagram
 <img src = "./assets/circuit.png"/>
 
 ## Authors
