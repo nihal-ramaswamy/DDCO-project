@@ -39,7 +39,10 @@ $ gtkwave tb_counter_dump.vcd
 Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals to the Signals box.
 
 ## Screenshots
-<img src = "./assets/Output.PNG"/>
+#### GtkWave
+<img src = "./assets/Output.PNG"/> <br>
+#### Circuit Diag
+<img src = "./assets/circuit.png"/>
 
 ## Authors
 
