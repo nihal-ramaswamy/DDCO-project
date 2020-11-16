@@ -51,9 +51,11 @@ $ gtkwave tb_counter_dump.vcd
 Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals to the Signals box.
 
 ## Screenshots
-#### GtkWave
-<img src = "./assets/Output.PNG"/> <br>
-#### Circuit Diagram for Sequential
+#### GtkWave - Non Sequential
+<img src = "./assets/non_sequential_output.PNG"/> <br>
+#### GtkWave - Sequential
+<img src = "./assets/sequential_output.PNG"/> <br>
+#### Circuit Diagram for Sequential 
 <img src = "./assets/circuit.png"/>
 
 ## Authors
