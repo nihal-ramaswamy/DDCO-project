@@ -28,20 +28,32 @@ To run the project, install the following programs
 
 ## Usage
 
-To run the project
+To run the project, you can either choose the sequential version or the non sequential version.
+
+### Non-Sequential
 
 ```bash
-$ cd DDCO-project
-$ iverilog counter_4.v counter_4tb.v  
-$ vvp a.out  
+$ cd DDCO-project/non-sequential
+$ iverilog counter_4.v counter_4tb.v
+$ vvp a.out
 $ gtkwave tb_counter_dump.vcd
 ```
+
+### Sequential
+
+```bash
+$ cd DDCO-project/sequential
+$ iverilog counter_4.v counter_4tb.v
+$ vvp a.out
+$ gtkwave tb_counter_dump.vcd
+```
+
 Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals to the Signals box.
 
 ## Screenshots
 #### GtkWave
 <img src = "./assets/Output.PNG"/> <br>
-#### Circuit Diagram
+#### Circuit Diagram for Sequential
 <img src = "./assets/circuit.png"/>
 
 ## Authors
