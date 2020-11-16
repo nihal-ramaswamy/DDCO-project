@@ -54,7 +54,7 @@ Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals 
 #### GtkWave - Non Sequential
 <img src = "./assets/non_sequential_output.PNG"/> <br>
 #### GtkWave - Sequential
-<img src = "./assets/sequential_output.PNG"/> <br>
+<img src = "./assets/sequential_output.png"/> <br>
 #### Circuit Diagram for Sequential 
 <img src = "./assets/circuit.png"/>
 
