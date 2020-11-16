@@ -7,7 +7,7 @@ A simple up-down counter project made using Icarus Verilog as a part of the Digi
 1. [Installation](#installation)
 2. [Requirements](#requirements)
 3. [Usage](#usage)
-4. [Algorithm](#algorthm)
+4. [Algorithm](#algorithm)
 5. [Screenshots](#screenshots)
 6. [Authors](#authors)
 
@@ -51,7 +51,7 @@ $ gtkwave tb_counter_dump.vcd
 
 Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals to the Signals box.
 
-## Algortithm
+## Algorithm
 
 To be Updated.
 
