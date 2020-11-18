@@ -1,36 +1,29 @@
-module tb_counter();
+module counter_tb();
 
-reg clock_signal,up_down,reset_signal;
-wire [3:0]output_wire;
-counter c4(clock_signal, reset_signal,up_down , output_wire);
+reg clock,reset;
+wire [3:0]q_up,q_down;
+up_counter uc(clock,reset,q_up);
+down_counter dc(clock,reset,q_down);
+
+initial begin 
+	$dumpfile("counter4_tb.vcd");
+	$dumpvars(0,counter_tb);
+end 
+
 initial 
-	begin 
-		$dumpfile("tb_counter_dump.vcd"); 
-		$dumpvars(0,tb_counter); 
-	end
-initial 
-begin clock_signal = 1'b0; repeat(60) #10 clock_signal =~ clock_signal;
+begin 
+clock=0; repeat(70) #10 clock=~clock;
 end
 
 initial 
 begin
-	reset_signal=1'b0;
-	up_down=1'b0;
-	#10
-	reset_signal=1'b1;
-	#10;
-	reset_signal=1'b0;
-	up_down=1'b0;
-	#90
-	reset_signal=1'b0;
-	up_down=1'b1;
-	#50
-	reset_signal=1'b1;
-	#20
-	reset_signal=1'b0;
-	#250;
-	reset_signal=1'b0;
-	up_down=1'b0;
+reset=1'b1;
+#30
+reset=1'b0;
+#160
+reset=1'b1;
+#20
+reset=1'b0;
 end
 
 endmodule

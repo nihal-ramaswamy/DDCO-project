@@ -41,7 +41,7 @@ $ vvp a.out
 $ gtkwave tb_counter_dump.vcd
 ```
 
-### Sequential - Combined
+### Sequential
 
 ```bash
 $ cd DDCO-project/sequential
@@ -59,16 +59,12 @@ To be Updated.
 ## Outputs
 #### GtkWave - Non Sequential
 <img src = "./assets/non_sequential_output.PNG"/> <br>
-#### GtkWave - Sequential - Combined
+#### GtkWave - Sequential
 <img src = "./assets/sequential_output.png"/> <br>
 
 ## Circuits
-#### Combined
+
 <img src = "./assets/circuit.png"/> <br>
-#### Up Counter
-<img src = "./assets/up_counter_sequential.png"/> <br>
-#### Down Counter
-<img src = "./assets/down_counter_sequential.png"/> <br>
 
 ## Authors
 

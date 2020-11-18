@@ -24,14 +24,39 @@ end
 
 endmodule
 
-module counter (input wire  clock_signal, reset_signal, up_down, output wire[3:0]q);
+module down_counter (input wire  clock_signal, reset_signal, output wire[3:0]q);
 
 	wire [5:0]a;
 	wire [2:0]or_out;
 
 	toggle_flip_flop t1 ( clock_signal, reset_signal, 1'b1, q[0]);
-	and2 and2_1 (q[0], up_down, a[0]);
-	and2 and2_2 (~q[0], ~up_down, a[1]);
+	and2 and2_1 (q[0], 1'b0, a[0]);
+	and2 and2_2 (~q[0], 1'b1, a[1]);
+	or2 or2_1 (a[0], a[1], or_out[0]);
+
+	toggle_flip_flop t2 ( clock_signal, reset_signal, or_out[0], q[1]);
+	and2 and2_3 (q[1], a[0], a[2]);
+	and2 and2_4 (~q[1], a[1], a[3]);
+	or2 or2_2 (a[2], a[3], or_out[1]);
+
+	toggle_flip_flop t3 ( clock_signal, reset_signal, or_out[1], q[2]);
+	and2 and2_5 (q[2], a[2], a[4]);
+	and2 and2_6 (~q[2], a[3], a[5]);
+	or2 or2_3 (a[4], a[5], or_out[2]);
+
+	toggle_flip_flop t4 ( clock_signal, reset_signal, or_out[2], q[3]);
+
+endmodule
+
+
+module up_counter (input wire  clock_signal, reset_signal, output wire[3:0]q);
+
+	wire [5:0]a;
+	wire [2:0]or_out;
+
+	toggle_flip_flop t1 ( clock_signal, reset_signal, 1'b1, q[0]);
+	and2 and2_1 (q[0], 1'b1, a[0]);
+	and2 and2_2 (~q[0], 1'b0, a[1]);
 	or2 or2_1 (a[0], a[1], or_out[0]);
 
 	toggle_flip_flop t2 ( clock_signal, reset_signal, or_out[0], q[1]);
