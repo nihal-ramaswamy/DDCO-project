@@ -8,8 +8,9 @@ A simple up-down counter project made using Icarus Verilog as a part of the Digi
 2. [Requirements](#requirements)
 3. [Usage](#usage)
 4. [Algorithm](#algorithm)
-5. [Screenshots](#screenshots)
-6. [Authors](#authors)
+5. [Outputs](#outputs)
+6. [Circuits](#circuits)
+7. [Authors](#authors)
 
 
 ## Installation
@@ -40,7 +41,7 @@ $ vvp a.out
 $ gtkwave tb_counter_dump.vcd
 ```
 
-### Sequential
+### Sequential - Combined
 
 ```bash
 $ cd DDCO-project/sequential
@@ -55,17 +56,23 @@ Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals 
 
 To be Updated.
 
-## Screenshots
+## Outputs
 #### GtkWave - Non Sequential
 <img src = "./assets/non_sequential_output.PNG"/> <br>
-#### GtkWave - Sequential
+#### GtkWave - Sequential - Combined
 <img src = "./assets/sequential_output.png"/> <br>
-#### Circuit Diagram for Sequential 
-<img src = "./assets/circuit.png"/>
+
+## Circuits
+#### Combined
+<img src = "./assets/circuit.png"/> <br>
+#### Up Counter
+<img src = "./assets/up_counter_sequential.png"/> <br>
+#### Down Counter
+<img src = "./assets/down_counter_sequential.png"/> <br>
 
 ## Authors
 
-- Nemalli Vishnu Vardhan Reddy [SRN: PES1UG19CS295]
+- [Nemalli Vishnu Vardhan Reddy](https://github.com/VISHNUNEMALI) [SRN: PES1UG19CS295]
 - Nerella Venkata Tarunika [SRN: PES1UG19CS296]
 - [Nihal Ramaswamy](https://github.com/nihal-ramaswamy) [SRN: PES1UG19CS297]
 - [Nihal Shetty](https://github.com/DragoMark) [SRN: PES1UG19CS298]
