@@ -1,6 +1,6 @@
 # 4 Bit Counter
 
-A simple up-down counter project made using Icarus Verilog as a part of the Digital Design and Computer Organization course (UE19CS201) at PES University.
+A simple up-down counter project made using Icarus Verilog as a part of the Digital Design and Computer Organization Laboratory (UE19CS206) at PES University.
 
 ## Contents
 
@@ -30,18 +30,7 @@ To run the project, install the following programs
 
 ## Usage
 
-To run the project, you can either choose the sequential version or the non sequential version.
-
-### Non-Sequential
-
-```bash
-$ cd DDCO-project/non-sequential
-$ iverilog counter_4.v counter_4tb.v
-$ vvp a.out
-$ gtkwave tb_counter_dump.vcd
-```
-
-### Sequential
+Open a terminal and execute the commands below.
 
 ```bash
 $ cd DDCO-project/sequential
@@ -54,12 +43,10 @@ Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals 
 
 ## Algorithm
 
-To be Updated.
+Check [here].
 
 ## Outputs
-#### GtkWave - Non Sequential
-<img src = "./assets/non_sequential_output.PNG"/> <br>
-#### GtkWave - Sequential
+#### GtkWave
 <img src = "./assets/sequential_output.png"/> <br>
 
 ## Circuits
