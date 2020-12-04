@@ -49,7 +49,7 @@ Check [here].
 #### GtkWave
 <img src = "./assets/sequential_output.png"/> <br>
 
-## Circuits
+## Circuit
 
 <img src = "./assets/circuit.png"/> <br>
 
