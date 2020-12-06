@@ -47,7 +47,9 @@ Check [here].
 
 ## Outputs
 #### GtkWave
-<img src = "./assets/sequential_output.png"/> <br>
+<p align = "center">
+  <img width = "20" height = "20" src = "./assets/sequential_output.png"/> <br>
+</p>
 
 ## Circuit
 
