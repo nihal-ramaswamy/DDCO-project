@@ -43,7 +43,7 @@ Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals 
 
 ## Algorithm
 
-Check [here](./Mini\ Project-ISA\ Submission_Project-8.pdf).
+Check [here](https://github.com/nihal-ramaswamy/DDCO-project/blob/main/Mini%20Project-ISA%20Submission_Project-8.pdf).
 
 ## Outputs
 #### GtkWave
