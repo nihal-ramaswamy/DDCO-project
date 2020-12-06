@@ -43,13 +43,11 @@ Click on ```tb_counter``` in the top left box on GTKWAVE, then drag the signals 
 
 ## Algorithm
 
-Check [here].
+Check [here](Mini Project-ISA Submission_Project-8.pdf).
 
 ## Outputs
 #### GtkWave
-<p align = "center">
-  <img width = "20" height = "20" src = "./assets/sequential_output.png"/> <br>
-</p>
+<img src = "./assets/sequential_output.png"/> <br>
 
 ## Circuit
 
